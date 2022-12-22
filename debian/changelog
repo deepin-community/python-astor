@@ -1,0 +1,48 @@
+python-astor (0.8.1-1) unstable; urgency=medium
+
+  * Update to 0.8.1 upstream release
+    - https://github.com/berkerpeksag/astor/pull/163 (Closes: #948417)
+
+ -- Tianon Gravi <tianon@debian.org>  Wed, 08 Jan 2020 13:48:12 -0800
+
+python-astor (0.8.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Drop Python 2 support.
+
+ -- Ondřej Nový <onovy@debian.org>  Sat, 24 Aug 2019 22:33:07 +0200
+
+python-astor (0.8.0-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Fixed VCS URL (https)
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Fix Format URL to correct one
+  * d/watch: Use https protocol
+  * d/control: Remove ancient X-Python-Version field
+  * d/control: Remove ancient X-Python3-Version field
+  * Convert git repository from git-dpm to gbp layout
+  * Use debhelper-compat instead of debian/compat.
+
+  [ Tianon Gravi ]
+  * Update to 0.8.0 upstream release
+
+ -- Tianon Gravi <tianon@debian.org>  Fri, 16 Aug 2019 16:17:32 -0700
+
+python-astor (0.5-1) unstable; urgency=medium
+
+  * Update to 0.5 upstream release.
+
+ -- Tianon Gravi <admwiggin@gmail.com>  Sun, 03 May 2015 00:57:13 +0000
+
+python-astor (0.4-2) unstable; urgency=medium
+
+  * Don't ship the tests module (or setuputils.py).
+
+ -- Tianon Gravi <admwiggin@gmail.com>  Sat, 16 Aug 2014 01:59:12 +0200
+
+python-astor (0.4-1) unstable; urgency=medium
+
+  * Initial release (Closes: #748372).
+
+ -- Tianon Gravi <admwiggin@gmail.com>  Thu, 10 Jul 2014 22:00:13 +0200

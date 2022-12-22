@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+export PYBUILD_NAME := astor
+
+# https://github.com/berkerpeksag/astor/issues/119
+export PYBUILD_TEST_ARGS_python3 := -k-test_convert_stdlib
+
+%:
+	dh $@ --with python3 --buildsystem pybuild

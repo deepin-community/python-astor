@@ -1,19 +1,20 @@
 Source: python-astor
 Section: python
 Priority: optional
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Uploaders: Paul Tagliamonte <paultag@debian.org>,
            Tianon Gravi <tianon@debian.org>
-Build-Depends: debhelper-compat (= 9),
-               dh-python,
-               python3-all (>= 3.2~),
-               python3-pytest,
+Build-Depends: debhelper-compat (= 13),
+               dh-sequence-python3,
+               python3-all,
+               python3-pytest <!nocheck>,
                python3-setuptools,
-               python3-unittest2
-Standards-Version: 3.9.6
+Standards-Version: 4.6.2
 Homepage: https://github.com/berkerpeksag/astor/
-Vcs-Git: https://salsa.debian.org/python-team/modules/python-astor.git
-Vcs-Browser: https://salsa.debian.org/python-team/modules/python-astor
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-astor.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-astor
+Rules-Requires-Root: no
+Testsuite: autopkgtest-pkg-pybuild
 
 Package: python3-astor
 Architecture: all

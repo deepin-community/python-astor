@@ -1,3 +1,41 @@
+python-astor (0.8.1-4) unstable; urgency=medium
+
+  * Team upload.
+  * Add patch to fix failing test (Closes: #1020085)
+  * Use dh-sequence-python3
+  * Drop old build dependencies
+  * Enable autopkgtest-pkg-pybuild
+  * Add R³
+  * Bump policy version (no changes)
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Fri, 30 Dec 2022 14:59:33 +0100
+
+python-astor (0.8.1-3) unstable; urgency=medium
+
+  [ Tianon Gravi ]
+  * Update use of deprecated "-k-" pytest syntax; Closes: #1013726
+
+ -- Sandro Tosi <morph@debian.org>  Sun, 26 Jun 2022 13:15:29 -0400
+
+python-astor (0.8.1-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 9 to 12.
+  * Set field Upstream-Name in debian/copyright.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+
+ -- Sandro Tosi <morph@debian.org>  Thu, 02 Jun 2022 22:22:44 -0400
+
 python-astor (0.8.1-1) unstable; urgency=medium
 
   * Update to 0.8.1 upstream release

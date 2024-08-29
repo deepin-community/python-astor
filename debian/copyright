@@ -1,5 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Source: https://github.com/berkerpeksag/astor
+Upstream-Name: astor
 
 Files: *
 Copyright: 2012 Patrick Maupin
